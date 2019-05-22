@@ -1,0 +1,21 @@
+{
+  "app": {
+    "port": 3000
+  },
+  "db": {
+    "name": "cwp-35",
+    "user": "admin_cwp",
+    "pass": "admin_cwp",
+    "options": {
+      "dialect": "mssql",
+      "host": "ANDREICHAYEUSKI",
+      "port": 1433,
+      "define": {
+        "timestamps": false,
+        "paranoid": false,
+        "freezeTableName": true
+      },
+      "logging": false
+    }
+  }
+}
